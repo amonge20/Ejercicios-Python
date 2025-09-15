@@ -9,7 +9,7 @@ variable_bienvenido = ", estas usando python!"
 
 # Mostramos el resultado "hola Aitor, estas usando python!"
 # Frase normal
-print("Frase normal: ", bienvenido, nombre, variable_bienvenido)
+print("Frase normal: ", bienvenido, nombre.title(), variable_bienvenido)
 # Si queremos que la frase sea en mayuscula
 print("Frase en mayuscula: ", bienvenido.upper(), nombre.upper(), variable_bienvenido.upper())
 # Si queremos que la frase sea en minuscula
@@ -18,4 +18,4 @@ print("Frase en minuscula: ", bienvenido.lower(), nombre.lower(), variable_bienv
 print("Frase del nombre correcto: ", bienvenido, nombre.title(), variable_bienvenido)
 # Si queremos eliminar que en el nombre tiene un punto o una coma
 print("Frase del nombre correcto 2: ", bienvenido, nombre_punto.replace(".",""), variable_bienvenido)
-print("Frase final: ", bienvenido, nombre, variable_bienvenido)
+print("Frase final: ", bienvenido, nombre.title(), variable_bienvenido)
