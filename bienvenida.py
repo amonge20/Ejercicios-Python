@@ -1,10 +1,13 @@
+# Crea un script que dado un nombre de usuario le de la bienvenidam con su nombre en el formato correcto
+# Consigue que el mensaje final sea: '¡Hola, <Nombre>, estas usando Python!'
+
 # Preguntamos por el nombre del usuario
 print("¿Como te llamas? ")
 nombre = input()
 print("¿Pero como te llamas realmente? ")
 nombre_punto = input()
 # Variables para mostrar el resultado del print
-bienvenido = "Hola"
+bienvenido = "¡Hola"
 variable_bienvenido = ", estas usando python!"
 
 # Mostramos el resultado "hola Aitor, estas usando python!"
@@ -18,4 +21,3 @@ print("Frase en minuscula: ", bienvenido.lower(), nombre.lower(), variable_bienv
 print("Frase del nombre correcto: ", bienvenido, nombre.title(), variable_bienvenido)
 # Si queremos eliminar que en el nombre tiene un punto o una coma
 print("Frase del nombre correcto 2: ", bienvenido, nombre_punto.replace(".",""), variable_bienvenido)
-print("Frase final: ", bienvenido, nombre.title(), variable_bienvenido)
