@@ -47,6 +47,6 @@ velocidad_media_Kimberley_Bos = pista_metros / marca_Kimberley_Bos
 
 # Resultado de los corredores
 print('\n --- CLASIFICACIÓN DE LA COMPETICION DE SKELETON ---')
-print("Hannah Neise:",minutos_Hannah_Neise,"minutos",segundos_Kimberley_Bos,"segundos","y",centesimas_Hannah_Neise,"centesimas, tiempo en segundos:",marca_Hannah_Neise,"y velocidad media metro por segundo:",velocidad_media_Hannah_Neise,"m/s")
-print("Jackie Narrot:",minutos_Jackie_Narrot,"minutos",segundos_Jackie_Narrot,"segundos","y",centesimas_Jackie_Narrot,"centesimas, tiempo en segundos:",marca_Jackie_Narrot,"y velocidad media metro por segundo:",velocidad_media_Jackie_Narrot,"m/s")
-print("Kimberley Bos:",minutos_Kimberley_Bos,"minutos",segundos_Kimberley_Bos,"segundos","y",centesimas_Kimberley_Bos,"centesimas, tiempo en segundos:",marca_Kimberley_Bos,"y velocidad media metro por segundo:",velocidad_media_Kimberley_Bos,"m/s")
+print("Hannah Neise:",minutos_Hannah_Neise,"minutos",segundos_Kimberley_Bos,"segundos","y",centesimas_Hannah_Neise,"centesimas, tiempo en segundos:",marca_Hannah_Neise,"s y velocidad media metro por segundo:",velocidad_media_Hannah_Neise,"m/s")
+print("Jackie Narrot:",minutos_Jackie_Narrot,"minutos",segundos_Jackie_Narrot,"segundos","y",centesimas_Jackie_Narrot,"centesimas, tiempo en segundos:",marca_Jackie_Narrot,"s y velocidad media metro por segundo:",velocidad_media_Jackie_Narrot,"m/s")
+print("Kimberley Bos:",minutos_Kimberley_Bos,"minutos",segundos_Kimberley_Bos,"segundos","y",centesimas_Kimberley_Bos,"centesimas, tiempo en segundos:",marca_Kimberley_Bos,"s y velocidad media metro por segundo:",velocidad_media_Kimberley_Bos,"m/s")
