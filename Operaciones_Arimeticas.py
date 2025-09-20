@@ -21,7 +21,7 @@ Numero_3 = int(input("Introduce el tercer numero de la operacion A: "))
 Numero_4 = int(input("Introduce el cuarto numero de la operacion A: "))
 
 # Operacion del Punto A
-Operacion_A = (Numero_1 + Numero_2 / Numero_3 * Numero_4) ** 2
+Operacion_A = (Numero_1 + Numero_2) ** 2 / (Numero_3 * Numero_4) 
 
 # Punto B
 Numero_n = int(input("Introduce un numero que sera 'n' en la operacion B: "))
@@ -34,8 +34,8 @@ Numero_Entero_1 = int(input("Introduce el primer numero de la operacion C: "))
 Numero_Entero_2 = int(input("Introduce el segundo numero de la operacion C: "))
 
 # Operacion del punto C con el cociente
+cociente = Numero_1 // Numero_2
 # Operacion del punto C con el resto
-cociente = Numero_1 / Numero_2
 resto = Numero_1 % Numero_2
 
 # Resultado de cada operacion
