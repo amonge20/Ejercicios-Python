@@ -27,16 +27,16 @@ Operacion_A = (Numero_1 + Numero_2) ** 2 / (Numero_3 * Numero_4)
 Numero_n = int(input("Introduce un numero que sera 'n' en la operacion B: "))
 
 # Operacion del punto B
-Operacion_B = Numero_n * (Numero_n + 1) / 2
+Operacion_B = Numero_n * (Numero_n + 1) // 2
 
 # Punto C
 Numero_Entero_1 = int(input("Introduce el primer numero de la operacion C: "))
 Numero_Entero_2 = int(input("Introduce el segundo numero de la operacion C: "))
 
 # Operacion del punto C con el cociente
-cociente = Numero_1 // Numero_2
+cociente = Numero_Entero_1 // Numero_Entero_2
 # Operacion del punto C con el resto
-resto = Numero_1 % Numero_2
+resto = Numero_Entero_1 % Numero_Entero_2
 
 # Resultado de cada operacion
 print("Operacion A: ",Operacion_A)
